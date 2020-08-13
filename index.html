@@ -5,18 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pushpak Kumar</title>
+    <title>Getfit Lifestyle</title>
     <!----Bootstrap css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <!-- bootstrap scoial -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <!----custom style css-->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Getfit Lifestyle</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span
+                                class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
+                                class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address fa-lg"></span>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
+            <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Pushapak Kumar</h1>
+                    <h1>Getfit Lifestyle</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
@@ -27,7 +56,7 @@
     </header>
 
     <div class="container">
-        <div class="row">
+        <div class="row align-item-center row-content">
             <div class="col-12 co-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -39,7 +68,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row row-content align-item-center">
             <div class="col-12 co-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -51,7 +80,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row row-content align-item-center">
             <div class="col-12 co-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -65,14 +94,14 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -80,27 +109,31 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        Tel.: +91 8360835049<br>
-                        Email: <a href="mailto:pushapak.11602086@lpu.in">confusion@food.net</a>
+                        121, HappyNest partment,
+                        Law Gate,<br>Lovely Professional University,144411<br>
+                        <i class="fa fa-phone fa-lg"></i> : +91 8360835049<br>
+                        <i class="fa fa-envelope fa-lg"></i> Email: <a
+                            href="mailto:pushapak.11602086@lpu.in">confusion@food.net</a>
                     </address>
                 </div>
-                <div>
-                    <div class="col-12 col-sm-4">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
-                    </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a> </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2020 Pushapak Kumar</p>
+                    <p>© Copyright 2019-2020 BOOSTFear</p>
                 </div>
             </div>
         </div>
