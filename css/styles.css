@@ -8,6 +8,12 @@ body {
     background: #512DA8;
 }
 
+
+
+#reservebutton a {
+    color: black;
+}
+
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -42,4 +48,8 @@ address {
 
 label {
     font-weight: bold;
+}
+
+.copyright {
+    padding-top: 10px;
 }
